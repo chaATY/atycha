@@ -1,17 +1,124 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>首页</title>
-    </head>
-    <body>
-        <iframe
-            src="./notes/index.html"
-            height="100%"
-            width="100%"
-            scrolling="no"
-            frameborder="0"
-        >
-        </iframe>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <!--- 网站图标 -->
+    <!-- <link rel="shortcut icon" href="plugin\images\favicon.ico"> -->
+    <link rel="stylesheet" href="./css/vue.css" />
+    <!-- 文件夹样式 -->
+    <link rel="stylesheet" href="./css/sidebar-folder.min.css" />
+    <!-- 可以用 CSS 来调整侧边栏的样式，在 <head></head> 之间加上以下代码 -->
+  </head>
+  <body>
+    <div id="app">Please wait...</div>
+    <script>
+      window.$docsify = {
+        name: "📖CHA.ATYの笔记",
+        // Github横幅
+        repo: "",
+        // 封面
+        coverpage: true,
+        // 封面和内容单独显示
+        onlyCover: true,
+        // 让你的内容页在滚动到指定的锚点时，距离页面顶部有一定空间。
+        topMargin: 25, // default: 0
+        themeColor: "#c30aff",
+        // 切换页面自动跳转到页面顶部
+        auto2top: true,
+        // 外链打开方式
+        //externalLinkTarget: '_blank',
+        // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
+        loadSidebar: true,
+        // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
+        loadNavbar: true,
+        // 最大支持渲染的标题层级
+        maxLevel: 5,
+        // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
+        subMaxLevel: 1,
+        // 小屏设备下合并导航栏到侧边栏
+        mergeNavbar: true,
+        // 页面右侧toc
+        toc: {
+          tocMaxLevel: 3,
+          target: "h2, h3, h4, h5, h6",
+        },
+        pagination: {
+          previousText: "上一篇",
+          nextText: "下一篇",
+          crossChapter: true,
+          crossChapterText: true,
+        },
+        /*搜索相关设置*/
+        search: {
+          maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+          paths: "auto", // 注意：仅适用于 paths: 'auto' 模式
+          placeholder: "搜索",
+          // 支持本地化
+          placeholder: {
+            "/zh-cn/": "搜索",
+            "/": "Type to search",
+          },
+          noData: "找不到结果",
+          depth: 6,
+          hideOtherSidebarContent: false,
+          namespace: "Docsify-Guide",
+        },
+        // 页脚
+        footer: {
+          copy: '<span id="sitetime"></span> <br/> <br/> <span>Copyright &copy; 2024 </span> <br /> 本文为 CHA.ATY 的原创文章，遵循 <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可证进行授权，请勿私自转载。',
+          auth: "<br />",
+          pre: "",
+          style: "",
+        },
+        // 字数统计
+        count: {
+          countable: true,
+          fontsize: "0.9em",
+          color: "rgb(90,90,90)",
+          language: "chinese",
+        },
+      };
+    </script>
+    <!-- 添加网站运行时间统计 -->
+    <script language="javascript" src="./js/runtime.js"></script>
+    <!-- Docsify v4 -->
+    <script src="./js/docsify.min.js"></script>
+    <!-- emoji表情支持 -->
+    <script src="./js/emoji.min.js"></script>
+    <!-- 图片放大缩小支持 -->
+    <script src="./js/zoom-image.min.js"></script>
+    <!-- 文章底部显示“下一篇”和“上一篇” -->
+    <script src="./js/docsify-pagination.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"></script> -->
+    <!-- 搜索功能支持 -->
+    <script src="./js/search.min.js"></script>
+    <!-- 页脚 -->
+    <script src="./js/docsify-footer-enh.min.js"></script>
+    <!-- 字数统计 -->
+    <script src="./js/countable.js"></script>
+    <!-- 多tab支持 -->
+    <script src="./js/docsify-tabs.min.js"></script>
+    <!-- 复制代码 -->
+    <script src="./js/docsify-copy-code.min.js"></script>
+    <!-- 侧边栏目录折叠 -->
+    <script src="./js/docsify-sidebar-collapse.min.js"></script>
+    <!-- 页面右侧 TOC -->
+    <script src="./js/docsify-plugin-toc.min.js"></script>
+    <!-- 支持 LaTex 语言 -->
+    <script src="./js/katex.min.js"></script>
+    <link rel="stylesheet" href="./css/katex.min.css" />
+    <script src="./js/marked@4.js"></script>
+    <script src="./js/docsify-katex.js"></script>
+    <!-- 动态樱花 -->
+    <script src="./js/sfx_sakura.js"></script>
+  </body>
 </html>
+

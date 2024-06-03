@@ -1,8 +1,7 @@
 - 开发环境
   - [1.Android 环境搭建](./Android/开发环境/1.Android环境搭建.md)
-  - [2.AOSP 环境搭建](./Android/开发环境/2.AOSP环境搭建.md)
+  - [2.AOSP 下载编译](./Android/开发环境/2.AOSP下载编译.md)
   - [3.ADB 配置 & 使用](./Android/开发环境/3.ADB配置%20&%20使用.md)
 - SystemUI
   - [1.SystemUI 启动流程](./Android/SystemUI/1.SystemUI启动流程.md)
 - Launcher
-

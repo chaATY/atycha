@@ -5,9 +5,10 @@
   - [LeetCode](https://leetcode.cn/)
   - [draw.io](https://drawio.panziye.com/?lang=zh)
   - [程序员站长工具网](https://tool.panziye.com)
-  - [IT TOOLS 工具箱](https://tools.panziye.com/)
 - 编程语言
-  - [cppreference](https://zh.cppreference.com/w/%E9%A6%96%E9%A1%B5)
+  - [C 参考手册](https://zh.cppreference.com/w/%E9%A6%96%E9%A1%B5)
+  - [Rust 官网](https://www.rust-lang.org/zh-CN/)
+  - [Compiler Explorer](https://godbo.lt)
 - 安全渗透
   - [看雪](https://bbs.kanxue.com)
   - [吾爱破解](https://www.52pojie.cn)
@@ -28,6 +29,7 @@
   - [免费抠图](https://www.quzuotu.com/home)
   - [svg 在线编辑](https://51tools.info/svg/)
   - [logo 设计](https://www.uugai.com)
+  - [致美化](https://zhutix.com)
 - 游戏娱乐
   - [G 站](https://www.jiligamefun.com)
   - [3DMGAME](https://bbs.3dmgame.com/forum.php)
